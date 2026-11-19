@@ -24,9 +24,8 @@ h3 { color: #8C3826; }
 h4 { background-color: #D2B48C;
      font-size: 1.2em;
       padding-left: .5em;
-      padding-bottom: .25em;
       text-transform: uppercase; 
-      border-bottom: solid;
+      border-bottom: 1px solid #231814;
       padding-bottom: 0;
       clear: left; }    
 dt { color: #8C3826;}
@@ -44,12 +43,14 @@ nav a:hover { color: #CC9933; }
 nav ul { list-style-type: none; 
          padding-left: 0; }
 main { padding-left: 0;
-       padding-right: 2em;
+       padding-right: 0;
+       padding-bottom: 2em;
        padding-top: 0;
        background-color: #FEF6C2; 
        display: block;
-       overflow: auto;}
-main h2 h3 h4 p div ul dl {
+       overflow: auto;
+       margin-left: 200px;}
+main h2, h3, h4, p, div, ul, dl {
        padding-left: 3em;
        padding-right: 2em; }
 img { padding-left: 10%;
@@ -62,11 +63,12 @@ footer { background-color: #D2B48C;
          border-top: 2px solid #8C3826; }
 #wrapper { width: 80%;
            margin-right:auto;
-           background-color: #FEFAEB;
+           background-color: #231814;
            margin-left:auto;
            min-width: 900px;
            max-width: 1280px;
-           box-shadow: 5px 5px 5px #1E1E1E; }
+           box-shadow: 5px 5px 5px #1E1E1E; 
+           padding: 0;}
 .details { padding-left: 20%;
            padding-right: 20%;
            overflow: auto; }
